@@ -1,0 +1,195 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    header{
+      text-align: center;
+      padding:0px 25px;
+    }
+    .banner-section{
+        width:100%;
+        height:100vh;
+    }
+    .banner-section{
+      width:100%;
+      background:url(../img/banner.png)center center no-repeat;
+      background-size:cover;
+      height:100vh;
+  }
+    .content h1{
+        font-size:70px !important;
+        font-weight:700 !important;
+       }
+       .content h1 span{
+       font-weight:200;
+     
+       }
+       .content h2{
+        width:100% !important;
+       }
+       .tab-section{
+        padding:80px 15px !important;
+       }
+       .tab-section h4{
+       margin-top:20px;
+       }
+       .social-icons{
+        text-align:center !important;
+    }
+       .social-icons ul li a i{
+        font-size:20px !important; 
+     }
+     .list-section .right .list{
+        margin-bottom:50px;
+       }
+       .feature-section .content p{
+        margin-bottom:40px;
+       }
+       
+.price-section .card{
+    margin-bottom:40px;
+    margin-left: 25px !important;
+}
+.testimonial-section{
+    width:100%;
+    padding:0px 15px !important;
+}
+.t-inner .intro .right p{
+  margin-bottom:50px;
+  }
+  .contact-section{
+    padding:80px 15px !important;
+}
+textarea{
+    padding-top:70%;
+}
+
+.button{
+    margin-bottom:30px;
+}
+  
+  }
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    header{
+      text-align: center;
+      padding:0px 25px;
+    }
+    .banner-section{
+        width:100%;
+        height:100vh;
+    }
+    .banner-section{
+      width:100%;
+      background:url(../img/banner.png)center center no-repeat;
+      height:100vh;
+      background-size: cover;
+  }
+    .content h1{
+        font-size:50px !important;
+        font-weight:500 !important;
+       }
+       .content h1 span{
+       font-weight:200;
+     
+       }
+       .content h2{
+        width:100% !important;
+       }
+       .tab-section{
+        padding:80px 15px !important;
+       }
+       .tab-section h4{
+       margin-top:20px;
+       }
+       .social-icons{
+        text-align:center !important;
+    }
+       .social-icons ul li a i{
+        font-size:16px !important; 
+     }
+     .list-section .right .list{
+        margin-bottom:50px;
+       }
+       .feature-section .content p{
+        margin-bottom:40px;
+       }
+       
+.price-section .card{
+    margin-bottom:40px;
+    margin-left: 25px !important;
+}
+.testimonial-section{
+    width:100%;
+    padding:0px 15px !important;
+}
+.t-inner .intro .right p{
+  margin-bottom:50px;
+  }
+  .contact-section{
+    padding:80px 15px !important;
+}
+textarea{
+    padding-top:70%;
+}
+
+.button{
+    margin-bottom:30px;
+}
+  }
